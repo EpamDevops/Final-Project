@@ -1,7 +1,0 @@
-#!/bin/bash
-file_out=out_script1
-awk  '{print$7, "IS THE MOST REQUESTED PAGE"}' $1 |sort|uniq -c | sort -gr > $file_out
-{
-    read line1
-}  < $file_out 
-echo $line1
